@@ -1,0 +1,6 @@
+node_modules
+src/controllers
+src/directives
+src/services
+dist/*.js
+*.sublime-project

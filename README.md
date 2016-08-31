@@ -1,1 +1,1 @@
-"# webpack-angular-boilerplate" 
+# angular-webpack
