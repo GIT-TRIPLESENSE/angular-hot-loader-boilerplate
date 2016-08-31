@@ -29,6 +29,12 @@ npm run build
 
 - Create `bundle.js` in `dist` folder
 
+```
+npm run commit
+```
+
+- Run `commitizen` and `cz-conventional-changelog` for property commit format
+
 
 
 
