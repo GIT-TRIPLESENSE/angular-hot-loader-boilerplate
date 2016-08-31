@@ -1,7 +1,7 @@
 
-# Webpack Angular 1 boilerplate
+# Webpack Angular 1.x boilerplate
 
-Webpack boilerplate for angular app development
+Webpack boilerplate for Angular 1 app development
 
 ## Features
 
