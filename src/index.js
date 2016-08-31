@@ -1,8 +1,10 @@
 import angular from 'angular';
-var ngModule = angular.module('app', []);
+import directives from './directives'
+import services from './services'
+import controllers from './controllers'
 
-console.log(ngModule);
-
-// require('./directives');
-// require('./services');
-// require('./controllers');
+let ngModule = angular.module('app', [
+	directives,
+	controllers,
+	services
+]);
