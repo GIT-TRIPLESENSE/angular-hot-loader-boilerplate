@@ -31,7 +31,9 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "1.14.1"
   },
-  "commitizen": {
-    "path": "./node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
