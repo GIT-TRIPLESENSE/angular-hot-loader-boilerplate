@@ -1,6 +1,6 @@
 module.exports = {
     "files": [
-        "icons/*.svg"
+        "./*.svg"
     ],
     "fontName": "Icons",
     "classPrefix": "icon-",

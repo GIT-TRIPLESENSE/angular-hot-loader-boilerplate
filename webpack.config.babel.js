@@ -40,7 +40,7 @@ module.exports = {
         quiet: true,
         contentBase: config.dist
     },
-    entry: `${config.src}/index.js`,
+    entry: `${config.src}/js/index.js`,
     devtool: !config.isProd ? 'eval-source-map' : '',
     output: {
         path: config.dist,
