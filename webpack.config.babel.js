@@ -3,6 +3,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import precss from 'precss';
 import autoprefixer from 'autoprefixer';
+import DashboardPlugin from 'webpack-dashboard/plugin';
 
 const config = {
     isProd: process.env.npm_lifecycle_event == 'build',
@@ -14,7 +15,8 @@ let plugins = [
     new HtmlWebpackPlugin({
         template: `${config.src}/index.ejs`,
         title: require("./package.json").name
-    })
+    }),
+    new DashboardPlugin()
 ]
 
 if (!config.isProd) {
@@ -35,6 +37,7 @@ module.exports = {
     devServer: {
         inline: true,
         hot: true,
+        quiet: true,
         contentBase: config.dist
     },
     entry: `${config.src}/index.js`,
