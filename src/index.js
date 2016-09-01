@@ -1,10 +1,12 @@
+require('./scss/main.scss')
+
 import angular from 'angular';
-import directives from './directives'
-import services from './services'
-import controllers from './controllers'
+import directives from './js/directives'
+import services from './js/services'
+import controllers from './js/controllers'
 
 let ngModule = angular.module('app', [
 	directives,
 	controllers,
 	services
-]);
+])
