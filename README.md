@@ -7,7 +7,7 @@ Webpack boilerplate for Angular 1 app development
 
 * ES6 Babel support
 * Webpack dev server
-* ES5 Templating
+* EJS Templating
 * Hot Module Replacement
 * Commitizen with CZ Conventional changelog for properly commit format
 
