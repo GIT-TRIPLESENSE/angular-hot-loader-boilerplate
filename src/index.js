@@ -1,3 +1,4 @@
+require("./icons.font");
 require('./scss/main.scss')
 
 import angular from 'angular';

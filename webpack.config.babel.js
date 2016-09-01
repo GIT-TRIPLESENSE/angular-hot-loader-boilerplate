@@ -60,8 +60,15 @@ module.exports = {
             {
                 test: /\.html$/,
                 loader: "html"
+            },
+            {
+                test: /\.font\.(js|json)$/,
+                loader: "style!css!fontgen?embed&types=woff"
             }
         ]
+    },
+    htmlLoader: {
+        interpolate: true
     },
     postcss: function () {
         return [precss, autoprefixer];

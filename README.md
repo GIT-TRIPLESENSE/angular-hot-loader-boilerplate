@@ -6,8 +6,9 @@ Webpack boilerplate for Angular 1 app development
 ## Features
 
 * ES6 Babel support
-* Webpack dev server
 * EJS Templating
+* Loaders: SASS, HTML, Babel, Base64 Icon Font
+* Webpack dev server
 * Hot Module Replacement
 * Commitizen with CZ Conventional changelog for properly commit format
 
