@@ -77,7 +77,7 @@ component
     component.js
 ```
 
-Controller Class must be exported es default, and follow this convention, 
+Controller Class must be exported as default, and follow this convention:
 
 ```
 // component.js -> ComponentController
@@ -91,4 +91,4 @@ export default class UiAccordionController {
 ## Contributing
 
 [https://medium.com/@Honestica/hot-reloading-angular-1-x-controllers-services-and-templates-f775507ff389#.lhx480nag](https://medium.com/@Honestica/hot-reloading-angular-1-x-controllers-services-and-templates-f775507ff389#.lhx480nag)
-[https://github.com/seeden/angular-es6](https://github.com/seeden/angular-es6)ù
+[https://github.com/seeden/angular-es6](https://github.com/seeden/angular-es6)
