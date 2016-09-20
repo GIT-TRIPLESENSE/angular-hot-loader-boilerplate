@@ -1,10 +1,10 @@
-$color: blue;
+$color: #E3E3E3;
 
 * {
 	margin: 7px;
 }
 
 html {
-	background: #E7E7E7;
+	background: $color;
 	font-family: Arial;
 }

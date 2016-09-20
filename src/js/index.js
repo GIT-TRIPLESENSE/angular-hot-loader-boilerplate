@@ -2,12 +2,15 @@ require("../icons/index.font")
 require('../scss/main.scss')
 
 import angular from 'angular'
-import directives from './directives'
-import services from './services'
-import controllers from './controllers'
 
-let ngModule = angular.module('app', [
-	directives,
+import controllers from './controllers/_'
+import services from './services/_'
+import components from './components/_'
+
+let ngModule = angular.module(AngularNS, [
+	components,
 	controllers,
 	services
 ])
+
+angular.bootstrap(document.body, [AngularNS])
