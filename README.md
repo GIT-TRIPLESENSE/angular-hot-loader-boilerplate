@@ -1,5 +1,5 @@
 
-# Webpack Angular 1.x Hot Reloader boilerplate
+# Angular 1.x Hot Reloader boilerplate
 
 Webpack boilerplate for Angular 1.x app development
 
