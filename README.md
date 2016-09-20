@@ -40,6 +40,7 @@ npm run build
 Folder structure
 
 ```
+index.html
 [package.json.name].min.js
 [package.json.name].min.css
 ```
